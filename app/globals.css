@@ -63,6 +63,10 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-tertiary text-white;
+  }
+
+  .layout {
+    @apply w-full mx-auto px-3 max-w-7xl;
   }
 }
