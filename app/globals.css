@@ -56,13 +56,31 @@
   }
 }
 
-
- 
 @layer base {
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-tertiary text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-extrabold;
+  }
+
+  .layout {
+    @apply w-full mx-auto px-3 max-w-7xl;
+  }
+}
+
+@layer components {
+  .home__revolution--ul {
+    @apply border-2;
+    border-image: linear-gradient(
+      hsla(191, 68%, 35%, 1),
+        hsla(101, 68%, 35%, 0.45),
+        hsla(277, 68%, 35%, 0.44),
+        hsla(155, 66%, 53%, 0.96)
+      ) 3;
   }
 }
