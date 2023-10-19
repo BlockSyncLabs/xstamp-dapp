@@ -15,7 +15,8 @@ const config: Config = {
       },
       colors: {
         "stamp-bg": "#160C35",
-        "stamp-green": "#2cd1b4"
+        "stamp-green": "#2cd1b4",
+        "proof-link-green": "#36d693"
       }
     },
 
