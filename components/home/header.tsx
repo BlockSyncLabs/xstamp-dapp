@@ -45,7 +45,7 @@ const Header = () => {
           })}
         </ul>
       </div>
-      <figure className="">
+      <figure className="md:block hidden">
         <Image src={headerImg} alt="Header" width={500} height={500} />
       </figure>
     </header>
