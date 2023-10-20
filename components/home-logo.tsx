@@ -12,7 +12,7 @@ const HomeLogo = ({ className = "" }: HomeLogoProps) => {
       translate="no"
       className={`text-primary-foreground rounded-[50%] ${className}`}
     >
-      ProofLink
+      SyncGuard
     </Link>
   );
 };
