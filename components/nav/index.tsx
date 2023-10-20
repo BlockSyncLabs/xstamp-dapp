@@ -33,7 +33,7 @@ const Index = () => {
   return (
     <div className="relative py-4">
       <div className="flex items-center justify-center mx-auto layout">
-        <HomeLogo className="w-20 h-20 text-center border-2 border-primary-foreground rounded-[50%] flex items-center justify-center mr-auto md:mr-0" />
+        <HomeLogo className="w-20 h-20 text-center border-2 border-primary-foreground rounded-[50%] flex items-center justify-center mr-auto md:mr-0 text-xs" />
         <nav
           ref={navRef}
           className="w-full absolute top-[6.9rem] -left-full bg-tertiary transition-all duration-300 z-10 md:static md:bg-transparent md:mx-auto md:max-w-sm"

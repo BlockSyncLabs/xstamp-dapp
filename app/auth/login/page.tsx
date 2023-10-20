@@ -4,6 +4,7 @@ import { SyntheticEvent, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import HomeLogo from "@/components/home-logo";
 
 import AuthHero from "@/components/Auth/AuthHero";
 
@@ -27,6 +28,7 @@ const Login = () => {
           icon="/icons/creators.svg"
         />
         <div className="w-[21.875rem] lg:w-[37.5rem] mt-[4rem]">
+        <HomeLogo className="w-20 h-20 text-center border-2 border-primary-foreground rounded-[50%] md:hidden flex items-center justify-center mr-auto md:mr-0 text-xs mb-[2.25rem]" />
           <h2 className="text-2xl font-semibold mb-6">Log In</h2>
           <p className="text-[1.25rem] font-medium">Enter your details</p>
           <form className="mt-6">
