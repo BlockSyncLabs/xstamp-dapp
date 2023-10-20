@@ -26,7 +26,7 @@ const Login = () => {
           title="Copyright authenticity of digital assets of content creators and artists"
           icon="/icons/creators.svg"
         />
-        <div className="w-[400px] lg:w-[600px] mt-[4rem]">
+        <div className="w-[21.875rem] lg:w-[37.5rem] mt-[4rem]">
           <h2 className="text-2xl font-semibold mb-6">Log In</h2>
           <p className="text-[1.25rem] font-medium">Enter your details</p>
           <form className="mt-6">
