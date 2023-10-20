@@ -40,7 +40,7 @@ const Works = () => {
           return (
             <li
               key={item.title}
-              className={`w-1/2 max-w-[419px] border rounded-md border-primary-foreground p-4 ${item.className}`}
+              className={`w-1/2 max-w-[419px] border rounded-md border-primary-foreground p-4 bg-[#160c35] ${item.className}`}
             >
               <figure className="mb-2">
                 <Image src={item.img} alt={item.title} width={50} height={50} />

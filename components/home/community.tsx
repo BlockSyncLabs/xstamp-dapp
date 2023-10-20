@@ -37,7 +37,7 @@ const socials = [
 const Community = () => {
   return (
     <Section title="Join our Community">
-      <div className="home__revolution--ul p-8 max-w-3xl mx-auto">
+      <div className="home__revolution--ul p-8 max-w-3xl mx-auto bg-[#160c35]">
         <ul className="flex justify-center gap-4">
           {communities.map((community, index) => {
             return (
